@@ -20,6 +20,16 @@
     },
     "categoryid": {
       "type": "string"
+    },
+    "categoryimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
